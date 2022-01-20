@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
-        class DBAccess
+        class DBAccess2
         {
             private static SqlConnection connection = new SqlConnection();
             private static SqlCommand command = new SqlCommand();
@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
             private static SqlDataAdapter adapter = new SqlDataAdapter();
             public SqlTransaction DbTran;
 
-            private static string strConnString = "Data Source=DESKTOP-R076QGV;Initial Catalog=Datastore;Integrated Security=True";
+            private static string strConnString = "Data Source=DESKTOP-R076QGV;Initial Catalog=Varistore;Integrated Security=True";
 
             public void createConn()
             {
